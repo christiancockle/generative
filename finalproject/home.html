@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./home.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <title>Home</title>
 </head>
+
 <body>
 
     <div class="gallery">
         <div class="img-container">
-            <img src="./assets/bg1.jpg"
-             alt="bg1"
-             data-original="bg1.jpg" 
-            />         
+            <img src="./assets/bg1.jpg" alt="Flowfield" data-original="bg1.jpg" data-description="example 1" linkto="flowfield.html" />
         </div>
         <div class="img-container">
-            <img src="./assets/ch.jpg"
-             alt="ch"
-             data-original="ch.jpg" 
-            />         
+            <img src="./assets/ch.jpg" alt="Chaos and Order" data-original="ch.jpg" data-description="example 2" linkto="chaosandorder.html" />
         </div>
         <div class="img-container">
-            <img src="./assets/bg3.jpg"
-             alt="bg3"
-             data-original="bg3.jpg" 
-            />         
+            <img src="./assets/chem.jpg" alt="Chemical Diffusion" data-original="chem.jpg" data-description="example 3" linkto="chemicaldiffusion.html" />
         </div>
         <div class="img-container">
-            <img src="./assets/bg4.jpg"
-             alt="bg4"
-             data-original="bg4.jpg" 
-            />         
+            <img src="./assets/agg.jpg" alt="Diffusion Limited Aggregation" data-original="agg.jpg" data-description="example 4" linkto="diffusionaggregation.html" />
         </div>
     </div>
     <div class="modal">
-        <img src="" alt="" class="full-img">
-        <p class="caption"></p>
+        <div class="modalcontainer">
+            <img src="" alt="" class="full-img">
+            <div class="sidebar">
+                <h1 class="caption"></h1>
+                <!-- <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ex velit, viverra non vulputate vitae, blandit vitae nisl. Nullam fermentum orci et erat viverra bibendum. Aliquam sed varius nibh, vitae mattis purus. Mauris elementum sapien
+                    non ullamcorper vulputate. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eget felis sit amet eros viverra pulvinar.</p> -->
+                <p class="description"></p>
+                <a href="home.html" class="button1">></a>
+            </div>
+        </div>
     </div>
-    
+
     <script src="./home.js"></script>
 </body>
+
 </html>
