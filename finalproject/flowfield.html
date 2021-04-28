@@ -5,11 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="frame.css">
     <title>Flowfield</title>
 </head>
 
 <body>
-    <iframe width=800 height=800 src="https://editor.p5js.org/christiancockle/embed/rElOgIuek"></iframe>
+    <div class="content">
+        <iframe class="frame" width=560 height=600 src="https://editor.p5js.org/christiancockle/embed/rElOgIuek"></iframe>
+        <div class="sidebar">
+            <p>Play around with the sliders and try to figure out what each might do. (You may need to reset the canvas in order to see the effects)</p>
+            <div class="tooltip"> (Or hover here for some hints)
+                <span class="tooltiptext">One of the sliders controls the force that the wind has on the particles, one controls how much the wind changes over time, and the final one controls the 'coherance' of the wind over the canvas.</span>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
