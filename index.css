@@ -32,6 +32,10 @@ body {
     color: white;
 }
 
+#showcase h2{
+    display: none;
+}
+
 #showcase p {
     font-size: 18px;
     color: white;
