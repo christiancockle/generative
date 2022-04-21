@@ -70,7 +70,7 @@ body {
     border: none;
 }
 
-@media all and (max-width: 929px) {
+@media all and (max-width: 1105px) {
     #showcase h1 {
         display: none;
     }
