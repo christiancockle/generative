@@ -4,7 +4,6 @@ You must perform a box kill
 You must execute an angle kill
 You must set someone else on fire
 You must get a kill wearing your opponents hat
-You must get a kill with the blunderbuss
 You must get a sword kill without throwing
 You must disarm someone with a body
 You cannot use jetpacks
@@ -13,3 +12,4 @@ You must survive being netted twice in a match
 You must get a grenade kill
 You must get a mine kill
 If there's a bible, you must use it
+If available, you must only use flintlocks, blunderbusses and muskets
