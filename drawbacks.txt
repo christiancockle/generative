@@ -10,3 +10,6 @@ You must disarm someone with a body
 You cannot use jetpacks
 You must get a kill while on fire
 You must survive being netted twice in a match
+You must get a grenade kill
+You must get a mine kill
+If there's a bible, you must use it
